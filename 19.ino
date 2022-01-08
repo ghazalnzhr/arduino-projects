@@ -1,6 +1,6 @@
 /*
-  LiquidCrystal Library - Walking charactar
-  This is the code for a walking costum charactar
+  LiquidCrystal Library - Walking character
+  This is the code for a walking costum character
 */
 
 // include the library code:
@@ -22,7 +22,7 @@ const int buttonPin = 2;
 // Keep track of button state
 int buttonState = 0;
 
-// Charactar bytes
+// Character bytes
 byte Character[8] = { 0b00000, 0b01110, 0b01110, 0b00100,
 	0b01110, 0b00100, 0b00100, 0b01010
 };
